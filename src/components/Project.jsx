@@ -80,7 +80,7 @@ const Project = () => {
             id: 4,
             title: "SILOGISTIK",
             description: "Developed a web application with Spring Boot, offers an advanced logistics solution for efficient supply chain management.",
-            link: "https://github.com/your-username/SILOGISTIK",
+            link: "https://github.com/abdillahsulthan/SILOGISTIK",
         },
     ];
 
