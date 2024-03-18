@@ -1,0 +1,21 @@
+@keyframes blink {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+.blink {
+    animation: blink 700ms infinite;
+}
+
+.gradient-text {
+    background-image: linear-gradient(to right, #7e8082, #2c3e50);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
