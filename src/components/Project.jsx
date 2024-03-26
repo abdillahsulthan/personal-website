@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 const ProjectCard = ({ title, description, link }) => {
     return (
         <Link to={link} target="_blank" rel="noopener noreferrer">
-            <div className="bg-transparent rounded-lg overflow-hidden shadow-md border border-gray-500 mb-6 h-full cursor-pointer transform transition-transform duration-300 hover:scale-105 mx-3">
+            <div className="bg-transparent rounded-lg overflow-hidden shadow-md border border-gray-500 mb-6 h-full cursor-pointer transform transition-transform duration-300 hover:scale-105">
                 <div className="p-8">
                     <h2 className="text-xl font-bold mb-2">{title}</h2>
                     <p className="text-gray-600 mb-4">{description}</p>
@@ -85,7 +85,7 @@ const Project = () => {
     ];
 
     return (
-        <div className="bg-white text-black py-10" id="project">
+        <div className="bg-white text-black py-10 mx-10" id="project">
             <div className="container mx-auto">
                 <h1 className="text-left border-b-2 border-gray-500 font-serif text-3xl font-bold mb-6">Project</h1>
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
