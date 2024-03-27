@@ -49,6 +49,12 @@ const TechStack = () => {
                     <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="50" height="50" viewBox="0 0 50 50" fill="black">
                         <path d="M26.707 3.293l-21 21c-.391.391-.391 1.024 0 1.414l5.586 5.586c.391.391 1.024.391 1.414 0L39.293 4.707C39.923 4.077 39.477 3 38.586 3H27.414C27.149 3 26.895 3.105 26.707 3.293zM39.293 24.707L22 42l-6.293-6.293c-.391-.391-.391-1.024 0-1.414l11-11C26.895 23.105 27.149 23 27.414 23h11.172C39.477 23 39.923 24.077 39.293 24.707zM39.293 45.293L32 38l-10 4 4.707 4.707C26.895 46.895 27.149 47 27.414 47h11.172C39.477 47 39.923 45.923 39.293 45.293z"></path>
                     </svg>
+
+
+                    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="50" height="50" viewBox="0 0 50 50">
+                        <path d="M 5 4 A 1.0001 1.0001 0 0 0 4 5 L 4 24 L 4 45 A 1.0001 1.0001 0 0 0 4 45.005859 A 1.0001 1.0001 0 0 0 4.0039062 45.0625 A 1.0001 1.0001 0 0 0 4.0078125 45.111328 A 1.0001 1.0001 0 0 0 4.0097656 45.123047 A 1.0001 1.0001 0 0 0 4.0234375 45.212891 A 1.0001 1.0001 0 0 0 4.0449219 45.294922 A 1.0001 1.0001 0 0 0 4.0625 45.34375 A 1.0001 1.0001 0 0 0 4.0859375 45.402344 A 1.0001 1.0001 0 0 0 4.1289062 45.486328 A 1.0001 1.0001 0 0 0 4.15625 45.533203 A 1.0001 1.0001 0 0 0 4.1777344 45.568359 A 1.0001 1.0001 0 0 0 4.2167969 45.619141 A 1.0001 1.0001 0 0 0 4.2402344 45.648438 A 1.0001 1.0001 0 0 0 4.28125 45.693359 A 1.0001 1.0001 0 0 0 4.3066406 45.720703 A 1.0001 1.0001 0 0 0 4.3730469 45.777344 A 1.0001 1.0001 0 0 0 4.3789062 45.783203 A 1.0001 1.0001 0 0 0 4.4492188 45.833984 A 1.0001 1.0001 0 0 0 4.4628906 45.84375 A 1.0001 1.0001 0 0 0 4.4726562 45.849609 A 1.0001 1.0001 0 0 0 4.546875 45.890625 A 1.0001 1.0001 0 0 0 4.6386719 45.931641 A 1.0001 1.0001 0 0 0 4.6992188 45.953125 A 1.0001 1.0001 0 0 0 4.7421875 45.964844 A 1.0001 1.0001 0 0 0 4.7480469 45.966797 A 1.0001 1.0001 0 0 0 4.8300781 45.984375 A 1.0001 1.0001 0 0 0 4.890625 45.992188 A 1.0001 1.0001 0 0 0 4.9453125 45.998047 A 1.0001 1.0001 0 0 0 4.9648438 45.998047 A 1.0001 1.0001 0 0 0 5 46 A 1.0001 1.0001 0 0 0 5.0292969 46 L 45 46 A 1.0001 1.0001 0 0 0 45.707031 44.292969 L 26.414062 25 L 45.707031 5.7070312 A 1.0001 1.0001 0 0 0 45 4 L 24 4 L 5 4 z M 6 6 L 21.585938 6 L 6 21.585938 L 6 6 z M 24.414062 6 L 42.585938 6 L 24.292969 24.292969 L 6 42.585938 L 6 24.414062 L 24.414062 6 z M 25 26.414062 L 42.585938 44 L 7.4140625 44 L 25 26.414062 z"></path>
+                    </svg>
+
                 </div>
                 
             </div>
@@ -60,26 +66,32 @@ const Project = () => {
     const projects = [
         {
             id: 1,
-            title: "NgeTech App",
+            title: "NgeTech Application",
             description: "Creating a web app with Django and extending functionality to mobile with Flutter for a unified, seamless user experience across platforms.",
             link: "https://github.com/ngetech",
         },
         {
             id: 2,
-            title: "Bikun App",
+            title: "Bikun Application",
             description: "Designed the UI/UX of Bikun App mobile application",
             link: "https://www.figma.com/proto/h4cGlcs3LKCPmRwBn7zn24/Bikun-App?page-id=202%3A1920",
         },
         {
             id: 3,
-            title: "Learning App",
+            title: "Learning Application",
             description: "Developed a learning application using Flutter that guides users through practice exercises.",
             link: "https://github.com/abdillahsulthan/learning-app-flutter",
         },
         {
             id: 4,
-            title: "SILOGISTIK",
+            title: "SILOGISTIK Application",
             description: "Developed a web application with Spring Boot, offers an advanced logistics solution for efficient supply chain management.",
+            link: "https://github.com/abdillahsulthan/SILOGISTIK",
+        },
+        {
+            id: 5,
+            title: "Financial Report Application",
+            description: "An application for Purwacaraka company aimed at enhancing operational efficiency concerning the provision of financial transaction reports occurring within the Purwacaraka company.",
             link: "https://github.com/abdillahsulthan/SILOGISTIK",
         },
     ];
@@ -88,7 +100,7 @@ const Project = () => {
         <div className="bg-white text-black py-10 mx-10" id="project">
             <div className="container mx-auto">
                 <h1 className="text-left border-b-2 border-gray-500 font-serif text-3xl font-bold mb-6">Project</h1>
-                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+                <div className="grid sm:grid-cols-2 lg:grid-cols-5 gap-6">
                     {projects.map((project) => (
                         <ProjectCard
                             key={project.id}

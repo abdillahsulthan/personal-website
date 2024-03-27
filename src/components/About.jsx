@@ -10,7 +10,7 @@ const About = () => {
                     I am currently an undergraduate student at the University of Indonesia majoring in Information Systems. My enthusiasm is dedicated to mastering skills in Website and Mobile Development App. Throughout my academic journey, I've actively engaged in coursework and hands-on projects that have not only deepened my understanding of Information Systems but also equipped me with the practical skills needed for effective web and mobile development.
                 </p>
                 <div className="flex justify-center">
-                    <Link to={"https://drive.google.com/file/d/1t_88GRUY2htz-dqQHux6AWVGWfNlOamg/view?usp=sharing"}>
+                    <Link to={"https://drive.google.com/drive/folders/1y9adkHWEg_d8dBTRLq64gCZPYB5rmzQ7?usp=share_link"}>
                         <button className="border border-gray-500 text-black hover:text-white hover:bg-gray-500 font-bold py-2 px-4 rounded">
                             View CV
                         </button>
